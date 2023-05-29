@@ -2,17 +2,6 @@
 
 ![Example gif output](http://ksaveljev.github.io/sliding-puzzle.gif)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [How it Works](#How it Works)
-- [Contributing](#contributing)
-- [Getting Started](#Getting Started)
-- [Examples](#Examples)
-- [Optimization](#Optimization)
-- [Dependencies](#Dependencies)
-- [Acknowledgments](#Acknowledgments)
-- [References](#References)
-
 ## Introduction
   **This Java-based project implements an A\* search algorithm to solve the sliding puzzle game. The goal of the game is to rearrange the tiles in n-by-n grid to achieve a specific target configuration using as few moves as possible.**
 
