@@ -1,23 +1,6 @@
 # Sliding Puzzle
-
-![Example gif output](http://ksaveljev.github.io/sliding-puzzle.gif)
-
-## Table of Contents
-- [Introduction](#introduction)
-- [How it Works](#How it Works)
-- [Contributing](#contributing)
-- [Getting Started](#Getting Started)
-- [Examples](#Examples)
-- [Optimization](#Optimization)
-- [Dependencies](#Dependencies)
-- [Acknowledgments](#Acknowledgments)
-- [References](#References)
-
-## Introduction
+![Puzzle](logo.png)
   **This Java-based project implements an A\* search algorithm to solve the sliding puzzle game. The goal of the game is to rearrange the tiles in n-by-n grid to achieve a specific target configuration using as few moves as possible.**
-
-  ![Puzzle](Solution.png)
-
 
 ## How it Works
 
@@ -51,7 +34,7 @@ Contributions are welcome! If you find a bug or have a suggestion, please open a
 
 ## Getting Started
 
-To use the puzzle solver, follow these steps:
+To use the 8 puzzle solver, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Import the project into your preferred Java IDE.
@@ -65,7 +48,6 @@ To run the solver and solve puzzles from files, you can use the `PuzzleChecker` 
 ```shell
 java PuzzleChecker puzzle1.txt puzzle2.txt puzzle3.txt
 ```
-![Puzzle](puzzle04txt.png)
 
 To solve custom puzzles, you can modify the `main` method of the `Solver` class. Create an instance of the `Board` class with the desired initial configuration, and pass it to the `Solver` constructor. Then, use the methods of the `Solver` class to access the solution.
 
